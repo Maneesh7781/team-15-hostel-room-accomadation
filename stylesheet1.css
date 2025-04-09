@@ -1,0 +1,331 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+h4{
+    text-align: left;
+   
+}
+.pic{
+    float: left;
+    margin-left: 30px;
+}
+
+ul li {
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 17px;
+    list-style-type: none;
+    margin-top: 0%;
+    
+    
+}
+.navbar{
+    width: 1000px;
+    height: 50px; 
+   margin-top: 50px;
+   float: right;
+   padding-top: 0%;
+  
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-left: 60px;
+   margin-top: 0%;
+   
+
+}
+ul li a{
+    color: grey;
+    font-family: Arial;
+    font-weight: bolder;
+    transition: 0.4s ease-in-out;
+    text-decoration: none;
+    margin-top: 0%;
+    font-style: italic;
+    
+    
+}
+ul li a:hover{
+    color: white;
+    
+
+}
+
+.vid1{
+    height: 100%;
+    width: 100%;
+    border: 0%;
+    border-radius: 0%;
+}
+.vid1{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media (min-aspect-ratio: 4/3){
+    .vid1{
+        width: auto;
+        height: 1100px;
+    }
+}
+.text{
+   position: absolute;
+   right: 50%;
+   top: 50%;
+color: whitesmoke;
+font-weight: bolder;
+font-size: 60px;
+font-style: oblique;
+
+}
+.container {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    gap: 20px; /* Space between image and text */
+    right: 50px;
+}
+.hostel {
+    width: 800px; /* Adjust image size */
+    height: 500px;
+    border-radius: 15px solid white;
+    box-shadow: 20px whitesmoke;
+    right: 20px;
+    animation: moveLeft 3s ease-in-out 3s alternate   ;
+ 
+}
+@keyframes moveLeft {
+    from {
+        transform: translateX(100%); /* Start from the right */
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0); /* Move to the left */
+        opacity: 1;
+    }
+}
+.text1 {
+    max-width: 600px; /* Adjust text width */
+    font-size: 20px;
+    font-style: oblique;
+    font-display: arial helvetica;
+}
+
+.t1{
+    word-spacing: 14px;
+    margin-bottom: 30px;
+}
+.t2{
+    margin-bottom: 40px;
+    word-spacing: 14px;
+}
+.t3{
+    text-align: center;
+   font-size: 30px;
+   font-style: italic;
+   margin-bottom: 20px;
+   padding-bottom: 20px;
+   
+}
+.web2{
+    border: black;
+}
+
+
+.head3{
+text-align: center;
+font-size: 20px;
+margin-bottom: 30px;
+padding-top: 27px;
+font-style: italic;
+}
+.text2{
+    display: flex;
+    align-items: center; /* Align items vertically */
+    gap: 20px; /* Space between image and text */
+    right: 50px;
+    top: 30px;
+}
+.bedp1{
+    word-spacing: 14px;
+    font-size: 20px;
+    font-style: italic;
+}
+.roomtour{
+    margin-left: 250px;
+}
+
+.sports1{
+    font-size: 25px;
+    font-style: italic; 
+    margin-top: 60px;
+    margin-left: 50px;
+}
+.container3 {
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+    justify-content: space-between; /* Creates space between text and image */
+}
+
+.text3 {
+    flex: 1; /* Allows text to take up remaining space */
+    padding-right: 20px; /* Adds spacing between text and image */
+    margin-bottom: 170px;
+    word-spacing: 14px;
+    font-style: italic;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.sports3 {
+    flex: 2; /* Adjusts text width */
+}
+
+.circket {
+    max-width: 40%; /* Ensures the image doesn't take up too much space */
+    height: auto;
+}
+.cricket{
+    margin-right: 70px;
+    margin-bottom: 50px;
+    border: 20px solid whitesmoke;
+    border-radius: 20px solid rgba(255, 255, 255, 0.545);
+}
+.sports{
+    text-align: center;
+    padding-top: 30px;
+    font-style: italic;
+    font-size: 20px;
+}
+.basketball-section {
+   
+    left: 80px;
+}
+
+.basketball-title {
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+   margin-left: 50px;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.basketball-content {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Adds spacing between image and text */
+    left: 80px;
+    margin-bottom: 50px;
+}
+
+.basketball-image-container {
+    flex: 1; /* Makes image take up equal space */
+    text-align: left;
+    
+}
+
+.basketball-image {
+    left: 80px;
+    border: 20px solid whitesmoke;
+    border-radius: 20px solid rgba(255, 255, 255, 0.545);
+}
+
+.basketball-text {
+    flex: 2; /* Gives more space to text */
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.5;
+    font-style: italic;
+    margin-bottom: 90px;
+}
+.gym-section {
+   margin-right: 0px;
+    padding: 0px;
+}
+
+.gym-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.gym-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+.gym-video {
+    flex: 1; /* Takes half the width */
+    width: 500px; /* Adjust image size */
+    height: 600px;
+    left: 500px;
+    border: 20px solid whitesmoke;
+    border-radius: 20px solid rgba(255, 255, 255, 0.545);
+    margin-bottom: 50px;
+}
+.gym-video1{
+    margin-right: 0px;
+    
+}
+
+.gym-text {
+    flex: 1; /* Takes half the width */
+    font-size: 20px;
+    line-height: 1.5;
+    font-style: italic;
+    word-spacing: 14px;
+    margin-right: 50px;
+}
+.mess-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.mess-container img {
+    width: 500px;
+    height: 400px;
+    border: 20px solid whitesmoke;
+    border-radius: 20px solid rgba(255, 255, 255, 0.545);
+}
+
+.mess-container p {
+    flex: 1;
+    text-align: justify;
+}
+
+/* Responsive: Stack on small screens */
+@media (max-width: 768px) {
+    .mess-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .mess-container img {
+        width: 100%;
+    }
+}
+.messheading{
+text-align: center;
+font-size: 24px;
+font-style: italic;
+}
+.messp{
+    font-size: 20px;
+    font-style: italic;
+    word-spacing: 14px;
+}
